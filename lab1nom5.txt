@@ -1,0 +1,30 @@
+using System;
+
+namespace lab1nom5
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			// TODO: Implement Functionality Here
+			Console.WriteLine("¬ведите номер мес€ца от 1 до 12");
+			int x=int.Parse(Console.ReadLine());
+			if (x>=3&&x<=5)
+				Console.WriteLine("¬есна");
+else
+	if (x>=6&&x<=8)
+		Console.WriteLine("Ћето");
+else
+	if (x>=9&&x<=11
+	   )Console.WriteLine("ќсень");
+else
+if (x==12||x<=2)
+		Console.WriteLine("«има");
+Console.ReadKey();
+			
+			
+			
+		}
+	}
+}
